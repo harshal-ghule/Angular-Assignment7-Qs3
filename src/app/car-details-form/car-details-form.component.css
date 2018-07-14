@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body { 
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+.basic-container {
+  padding: 30px;
+}
+
+.version-info {
+  font-size: 8pt;
+  float: right;
+}
+
+.myform-align{
+    padding-left:5em;
+    padding-right:5em;
+    padding-bottom: 2em;
+    margin-top:2em;
+    border : 0.2em solid rgb(10, 10, 10) ;
+    border-radius: 2em;
+    
+}
+
+.bgimage{
+  background-image: url("/assets/9.jpg");
+}
+
+.bg-color{
+  background-color: lightblue;
+}
+
+.example-stretched-tabs {
+  max-width: 1000px;
+}
+
+example-small-box, .example-large-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.example-small-box {
+  height: 100px;
+  width: 100px;
+}
+
+.example-large-box {
+  height: 100px;
+  width: 900px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
